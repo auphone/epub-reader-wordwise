@@ -1,0 +1,36 @@
+{
+  "name": "e-reader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "import-ngram": "coffee ./scripts/ngram.importer.coffee",
+    "import-cedict": "coffee ./scripts/cedict.importer.coffee"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-sanitize": "^1.6.4",
+    "bluebird": "^3.5.0",
+    "coffeescript": "^2.0.0",
+    "elasticsearch": "^13.0.1",
+    "epub": "^0.1.6",
+    "jquery": "^3.2.1",
+    "line-by-line": "^0.1.5",
+    "request": "^2.81.0",
+    "sanitize": "^2.0.1",
+    "stopword": "^0.1.1",
+    "translate": "^0.7.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "electron": "^1.7.6",
+    "gulp-coffee": "^2.3.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-watch": "^4.3.11"
+  }
+}

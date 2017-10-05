@@ -1,0 +1,27 @@
+{
+  "es": {
+    "host": "localhost:9200",
+    "dbs": {
+      "cedict": "cedict",
+      "ngram": "ngram"
+    },
+    "importer": {
+      "cedict": {
+        "root": "/mnt/data/cedict/",
+        "filename": "cedict_ts.u8"
+      },
+      "ngram": {
+        "root": "/mnt/data/ngram/",
+        "prefix": "googlebooks-eng-all-1gram-20120701-",
+        "charCode": {
+          "from": 97,
+          "to": 122
+        }
+      }
+    }
+  },
+  "ebook": {
+    "epub": "./assets/books/the_old_man_and_the_sea.epub",
+    "level": 1
+  }
+}

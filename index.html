@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <style type="text/css">
+      p {
+        overflow: hidden;
+      }
+      p span {
+        position: absolute;
+      }
+    </style>
+  </head>
+  <body ng-app='app' ng-controller='AppCtrl'>
+    <book-section
+      ng-repeat="item in toc"
+      book="book"
+      chapter="item"
+    ></book-section>
+    <script src="dist/app.js"></script>
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35734/livereload.js?snipver=1"></' + 'script>')</script>
+  </body>
+</html>
